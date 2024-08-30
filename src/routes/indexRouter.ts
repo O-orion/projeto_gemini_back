@@ -3,6 +3,6 @@ import TextController from "../controllers/TextController";
 
 const router = Router();
 
-router.get('/text', TextController.getText)
+router.get('/text/prompt', TextController.getText)
 
 export default router
