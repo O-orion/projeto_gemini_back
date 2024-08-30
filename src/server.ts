@@ -1,13 +1,7 @@
-import express from 'express';
+import app from './app';
 
-const app = express();
 const port = 3000;
 
-// rotas 
-app.get('/', (req, res) => {
-    res.send('Olá')
-})
-
 app.listen(port, () => {
-    console.log('Servidor on!')
+    console.log(`Servido on: localhost:${port}`)
 })
